@@ -139,3 +139,6 @@ BEGIN
 		PRINT '=========================================='
 	END CATCH
 END
+
+--- run the stored procedure
+EXEC bronze.load_bronze
